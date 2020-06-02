@@ -40,16 +40,16 @@ let showLevel3 = '';
 let len = pokemon.length;
 for (let i = 0; i < len; i++) {
     if (pokemon[i].level === 'legend') {
-        showLegend += '  <div class="grid-item" ><img src="images/pokemon/' + pokemon[i].image + '" alt=""><br> <div id="name">' + pokemon[i].name + '</div><div id="type">' + pokemon[i].type + '</div> </div>'
+        showLegend += '  <div class="grid-item" ><img id="poke" src="images/pokemon/' + pokemon[i].image + '" alt=""><br> <div id="name">' + pokemon[i].name + '</div><div id="type">' + pokemon[i].type + '</div> </div>'
     }
     if (pokemon[i].level === '1') {
-        showLevel1 += '<div class="grid-item" > <img src="images/pokemon/' + pokemon[i].image + '" alt=""><br> <div id="name">' + pokemon[i].name + '</div><div id="type">' + pokemon[i].type + '</div> </div>'
+        showLevel1 += '<div class="grid-item" > <img id="poke" src="images/pokemon/' + pokemon[i].image + '" alt=""><br> <div id="name">' + pokemon[i].name + '</div><div id="type">' + pokemon[i].type + '</div> </div>'
     }
     if (pokemon[i].level === '2') {
-        showLevel2 += ' <div class="grid-item" ><img src="images/pokemon/' + pokemon[i].image + '" alt=""><br> <div id="name">' + pokemon[i].name + '</div><div id="type">' + pokemon[i].type + '</div> </div>'
+        showLevel2 += ' <div class="grid-item" ><img id="poke" src="images/pokemon/' + pokemon[i].image + '" alt=""><br> <div id="name">' + pokemon[i].name + '</div><div id="type">' + pokemon[i].type + '</div> </div>'
     }
     if (pokemon[i].level === '3') {
-        showLevel3 += ' <div class="grid-item" ><img src="images/pokemon/' + pokemon[i].image + '" alt=""><br> <div id="name">' + pokemon[i].name + '</div><div id="type">' + pokemon[i].type + '</div> </div>'
+        showLevel3 += ' <div class="grid-item" ><img id="poke" src="images/pokemon/' + pokemon[i].image + '" alt=""><br> <div id="name">' + pokemon[i].name + '</div><div id="type">' + pokemon[i].type + '</div> </div>'
     }
 }
 document.getElementById('grid-container1').innerHTML = showLegend;

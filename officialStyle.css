@@ -105,7 +105,7 @@ a:hover{
 
 .c1-right{
     width: 25%;
-    height: 440px;
+    height: 140px;
     
     margin-top: 10px;
     margin-left: 10px;
@@ -178,7 +178,7 @@ input::placeholder{
     margin-bottom: 20px;
     border-radius: 40px;
     font-weight: bold;
-    color: var(--color15);;
+    color: var(--color15);
 }
 button:hover{
     cursor: pointer;
@@ -225,3 +225,194 @@ h1{
       color: red;
   }
   
+  
+@media screen and (max-width: 375px){
+    body{
+        max-width: 375px;      
+    }
+    .header{
+        height: 64px;
+    }
+    #headImg{    
+        height: 45px;       
+    }
+    .container1{
+        height: 200px;
+        background-image: url('images/background1.png');
+    }
+    .c1-left{
+        width: 0%;
+    }
+    .c1-center{
+        width: 75%;
+    }
+    a{
+        text-decoration: none;
+        color:  var(--color12);
+        width: 100%;
+        font-size: 9px;
+    }
+    a:hover{
+        color:  var(--color15);
+        font-weight: bold;
+    }
+    .tools{
+        display: flex;
+        width: 100%;
+        text-align: right;
+        background-color: rebeccapurple;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    
+    .tool1,.tool2,.tool3,.tool4{  
+        width: 20%;
+        height: 35px;
+        margin-right: 2px;
+        border-bottom: solid 2px red;
+       
+    }
+    .tool5{
+        width: 20%;
+        height: 35px;     
+        border-bottom: solid 2px red;
+    }
+    .tool1:hover,.tool2:hover,.tool3:hover,.tool4:hover,.tool5:hover{
+        background-color: yellow;
+        border-bottom: solid 5px maroon;
+    }
+    #iconHome,#iconPokedex,#iconItem,#iconShop,#iconEvent{
+        width: 24%;
+        margin-top: 0px;
+        margin-bottom: -1px;
+    }
+    
+    #bgImgCover{
+        text-align: right;
+    }
+    #bgImg{
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 5px;
+        
+    }
+    
+    .c1-right{
+        width: 25%;
+        height: 440px;
+        
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+    form{
+       
+        background-color: var(--color2);
+        width: 97%;
+        padding-top: 20px;
+        text-align: center;
+    }
+    #loginNow{
+        color: var(--color12);
+        width: 100%;
+        margin: -11px 0px;
+        font-size: 10px;
+    }
+    .user{   
+      
+        margin: 10px 16px 0px;
+       
+    }
+    #inputUser{
+      
+        padding-left: 3px;
+        font-size: 7px;
+    }
+    #imgUser{
+      
+        top: 10px;
+        right: -5px;
+    
+    }
+    .password{
+        
+        margin: 2px 16px 0px;
+      
+    }
+    #inputPass{  
+        font-size: 7px;
+        padding-left: 3px;   
+    }
+    #imgPass{
+      
+        top: 10px;
+        right: -5px;
+     
+       
+    }
+   
+    
+    .suggest{
+       
+        margin-right:3px;
+        margin-top: -5px;
+        
+    }
+    #sugg{
+        font-size: 4px;
+        color: blue;
+        
+    }
+    #suggLab{
+        font-size: 3px;
+    
+    
+    }
+    #btn1{
+        width: 50px;
+        height: 15px;
+        margin-top: 0px;
+        margin-bottom: 8px;
+        font-size: 8px;
+    }
+   
+    .container2{
+        width: 100%;    
+    }
+    h1{
+        font-size: 16px;  
+        border: solid 1px darkorange;
+        padding: 3px auto;
+        margin: 3px 0px;
+    }
+    .grid-container {
+      
+  
+        padding: 3px;
+      }
+      #poke{
+          width: 35px;
+          height: 35px;
+      }
+      .grid-item {
+        border: solid 1px darkorange;
+        border-radius:76%;
+        margin:1% 2%;
+        padding: 1%;
+        font-size: 4px;
+       
+       
+      }
+      
+      #name{
+          font-size: 5px;
+      
+     
+      }
+      #type{
+          font-size: 4px;
+      
+      }
+      
+   
+  }
