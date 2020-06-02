@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Go - Module 1 </title>
+    <link rel="stylesheet" href="officialStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div id="headImgCover"><img id="headImg" src="images/header.png" alt=""></div>
+    </div>
+    <div class="container">
+        <div class="container1">
+            <div class="c1-left"></div>
+            <div class="c1-center">
+                <div class="tools">
+                    <div class="tool1">
+                        <img id="iconHome" src="images/home.png" alt=""><br>
+                        <a href="">Home</a>
+                    </div>
+                    <div class="tool2">
+                        <img id="iconPokedex" src="images/pokeball.png" alt=""><br>
+                        <a href="">Pokedex</a>
+                    </div>
+                    <div class="tool3">
+                        <img id="iconItem" src="images/item.png" alt=""><br>
+                        <a href="">Items</a>
+                    </div>
+                    <div class="tool4">
+                        <img id="iconShop" src="images/shop.png" alt=""><br>
+                        <a href="">Shop</a>
+                    </div>
+                    <div class="tool5">
+                        <img id="iconEvent" src="images/event.png" alt=""><br>
+                        <a href="">Events</a>
+                    </div>
+                </div>
+                <div id="bgImgCover"><img id="bgImg" src="images/bg1.jpg" alt=""></div>
+            </div>
+            <div class="c1-right">
+                <form class="form" method="dialog">
+                    <div id="loginNow" for="">login Now</div>
+                    <div class="user">
+                        <input id="inputUser" type="text" placeholder="Username">
+                        <img id="imgUser" src="images/user.png" alt="">
+                    </div>
+                    <div class="password">
+                        <input id="inputPass" type="password" placeholder="Password">
+                        <img id="imgPass" src="images/password.png" alt="">
+                    </div>
+                    <div class="suggest">
+                        <label id="suggLab" for="">Forgot password?</label>
+                        <a id="sugg" href=""> Click here</a>
+                        <label id="suggLab" for="">New user?</label>
+                        <a id="sugg" href=""> Register here</a>
+                    </div>
+                    <button id="btn1">Login</button>
+                </form>
+            </div>
+        </div>
+        <div class="container2">
+            <h1>Legendary Pokemons</h1>
+            <div class="grid-container" id="grid-container1">   
+            </div>
+            <h1>Level 1 Pokemons</h1>
+            <div class="grid-container" id="grid-container2">
+            </div>
+            <h1>Level 2 Pokemons</h1>
+            <div class="grid-container" id="grid-container3">
+            </div>
+            <h1>Level 3 Pokemons</h1>
+            <div class="grid-container" id="grid-container4">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="ender"></div>
+    
+    <script src="officialControl.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,227 @@
+
+
+:root{
+    --color1:hsl(0, 36%, 70%);
+    --color2:hsl(0, 6%, 24%);
+    --color3:hsl(249, 10%, 26%);
+    --color4:hsl(246, 25%, 77%);
+    --color5:hsl(0, 100%, 74%);
+    --color6:hsl(154, 59%, 51%);
+    --color7:hsl(248, 32%, 49%) ;
+    --color8:hsl(233, 26%, 24%) ;
+    --color9:hsl(136, 65%, 51%) ;
+    --color10:hsl(192, 70%, 51%) ;
+    --color11:hsl(233, 8%, 62%) ;
+    --color12:hsl(220, 16%, 96%) ;
+    --color13:hsl(0, 36%, 70%);
+    --color14:hsl(0, 0%, 100%) ;
+    --color15:hsl(0, 6%, 24%) ;
+    --color16:hsl(0, 93%, 68%) ;  
+}
+
+body{
+    max-width: 1344px;
+    margin-left: 0px;
+    margin-top: -1px;
+}
+.header{
+    height: 110px;
+    background-color: var(--color2);
+}
+#headImg{
+    width: 100%;
+    height: 90px;
+    margin-top: 10px;
+}
+.container{
+    width: 100%;
+}
+.container1{
+    width: 100%;
+    display: flex;
+    background-image: url('images/background.png');
+}
+.c1-left{
+    width: 25%;
+}
+.c1-center{
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color:  var(--color12);
+    width: 100%;
+    
+}
+a:hover{
+    text-decoration: none;
+    color:  var(--color15);
+    font-weight: bold;
+}
+.tools{
+    display: flex;
+    width: 100%;
+    text-align: right;
+    background-color: rebeccapurple;
+    margin-top: 10px;
+}
+
+.tool1,.tool2,.tool3,.tool4{
+    text-align: center;
+    border: solid 2px  var(--color2) ;
+    background-color: var(--color1);
+    width: 20%;
+    height: 70px;
+    margin-right: 10px;
+    border-bottom: solid 5px red;
+}
+.tool5{
+    text-align: center;
+    border: solid 2px  var(--color2) ;
+    background-color: var(--color1);
+    width: 20%;
+    height: 70px;
+   
+    border-bottom: solid 5px red;
+}
+.tool1:hover,.tool2:hover,.tool3:hover,.tool4:hover,.tool5:hover{
+    background-color: yellow;
+    border-bottom: solid 5px maroon;
+}
+#iconHome,#iconPokedex,#iconItem,#iconShop,#iconEvent{
+    width: 30%;
+    margin-top: 10px;
+}
+
+#bgImgCover{
+    text-align: right;
+}
+#bgImg{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    
+}
+
+.c1-right{
+    width: 25%;
+    height: 440px;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+}
+form{
+   
+    background-color: var(--color2);
+    width: 97%;
+    padding-top: 20px;
+    text-align: center;
+}
+#loginNow{
+    color: var(--color12);
+    width: 100%;
+    margin: 15px 0px;
+}
+.user{   
+    position: relative;
+    margin: 0px 80px;
+    width: 55%;
+}
+#inputUser{
+    width: 100%;
+    padding-left: 8px;
+}
+#imgUser{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    width: 6%; 
+}
+.password{
+    position: relative; 
+    margin: 10px 80px;
+    width: 55%;
+}
+#inputPass{  
+    width: 100%; 
+    padding-left: 8px;   
+}
+#imgPass{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    width: 6%; 
+   
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    color: var(--color1);
+}
+.suggest{
+    text-align: right;
+    margin-right: 10px;
+}
+#sugg{
+    font-size: 12px;
+    color: blue;
+}
+#suggLab{
+    font-size: 12px;
+    color: var(--color12); 
+}
+#btn1{
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    font-weight: bold;
+    color: var(--color15);;
+}
+button:hover{
+    cursor: pointer;
+    background-color: darkorange;
+}
+.container2{
+    width: 100%;    
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    border: solid 2px darkorange;
+    color: white;
+    background-color: black;
+    padding: 5px auto;
+    margin: 10px 0px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-image: url('images/backg.jpg');
+    padding: 10px;
+  }
+  .grid-item {
+    border: solid 3px darkorange;
+    border-radius:50%;
+    margin:3% 10%;
+    padding: 2%;
+    font-size: 80px;
+    text-align: center;
+    background-image: url('images/backgPoke.jpg');
+    transform: scale(0.90);
+  }
+  .grid-item:hover {
+    transform: scaleY(1.1);
+  }
+  #name{
+      font-size: 20px;
+      font-weight: bold;
+      color: gold;
+  }
+  #type{
+      font-size: 15px;
+      color: red;
+  }
+  
