@@ -288,7 +288,7 @@ p{
         font-size: 20px;
     }
     .grid-item {
-        border: 2.7px; 
+        border: solid 2.7px darkorange; 
       }
 }
 @media screen and (max-width: 1299px){
@@ -296,7 +296,7 @@ p{
             font-size: 19px;
     }
     .grid-item {
-        border: 2.6px; 
+        border: solid 2.6px darkorange; 
       }
 }
 @media screen and (max-width: 1200px){
@@ -304,7 +304,7 @@ p{
             font-size: 18px;
     }
     .grid-item {
-        border: 2.5px; 
+        border: solid 2.5px darkorange; 
       }
 }
 @media screen and (max-width: 1100px){
@@ -312,7 +312,7 @@ p{
             font-size: 17px;
     }
     .grid-item {
-        border: 2.5px; 
+        border: solid 2.5px darkorange; 
       }
 }
 @media screen and (max-width: 1024px){
@@ -320,7 +320,7 @@ p{
             font-size: 15px;
     }
     .grid-item {
-        border: 2.5px; 
+        border: solid 2.5px darkorange; 
       }
 }
 @media screen and (max-width: 850px){
@@ -328,7 +328,7 @@ p{
             font-size: 14px;
     }
     .grid-item {
-        border: 2px; 
+        border: solid 2px darkorange; 
       }
 }
 @media screen and (max-width: 768px){
@@ -336,7 +336,7 @@ p{
             font-size: 13px;
     }
     .grid-item {
-        border: 2px; 
+        border: solid 2px darkorange; 
       }
 }
 @media screen and (max-width: 690px){
@@ -344,7 +344,7 @@ p{
             font-size: 12px;
     }
     .grid-item {
-        border: 1.9px; 
+        border: solid 1.9px darkorange; 
       }
 }
 @media screen and (max-width: 645px){
@@ -352,7 +352,7 @@ p{
             font-size: 11.5px;
     }
     .grid-item {
-        border: 1.9px; 
+        border: solid 1.9px darkorange; 
       }
 }
 @media screen and (max-width: 605px){
@@ -360,7 +360,7 @@ p{
             font-size: 11px;
     }
     .grid-item {
-        border: 1.8px; 
+        border: solid 1.8px darkorange; 
       }
 }
 @media screen and (max-width: 580px){
@@ -377,7 +377,7 @@ p{
         grid-template-columns: 33.3% 33.3% 33.3%
       }
     .grid-item {
-        border: 1.8px; 
+        border: solid 1.8px darkorange; 
       }
 }
 @media screen and (max-width: 540px){
@@ -394,7 +394,7 @@ p{
         grid-template-columns: 33.3% 33.3% 33.3%
       }
     .grid-item {
-        border: 1.7px; 
+        border: solid 1.7px darkorange; 
       }
 }
 @media screen and (max-width: 500px){
@@ -411,7 +411,7 @@ p{
         grid-template-columns: 33.3% 33.3% 33.3%
       }
     .grid-item {
-        border: 1.5px; 
+        border: solid 1.5px darkorange; 
       }
 }
 @media screen and (max-width: 480px){
@@ -428,7 +428,7 @@ p{
         grid-template-columns: 33.3% 33.3% 33.3%
       }
     .grid-item {
-        border:1.3px; 
+        border: solid 1.3px darkorange; 
       }
 }
 @media screen and (max-width: 430px){
@@ -445,7 +445,7 @@ p{
         grid-template-columns: 33.3% 33.3% 33.3%
       }
     .grid-item {
-        border: 1px; 
+        border: solid 1px darkorange; 
       }
 }
 @media screen and (max-width: 400px){
@@ -462,7 +462,7 @@ p{
         grid-template-columns: 33.3% 33.3% 33.3%
       }
     .grid-item {
-        border: 1px; 
+        border: solid 1px darkorange; 
       }
 }
 @media screen and (max-width: 375px){
@@ -479,6 +479,6 @@ p{
         grid-template-columns: 33.3% 33.3% 33.3%
       }
     .grid-item {
-        border: 1px; 
+        border: solid 1px darkorange; 
       }
 }
