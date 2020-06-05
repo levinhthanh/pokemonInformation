@@ -140,13 +140,13 @@ form{
 }
 #inputUser{
     width: 100%;
-    padding-left: 5px;
+    padding-left: 0.25rem;
     font-size: 0.7rem;
 }
 #imgUser{
     position: absolute;
-    top: 5px;
-    right: 0px;
+    top: 0.3rem;
+    right: -0.2rem;
     width: 6%; 
 }
 .password{
@@ -156,13 +156,13 @@ form{
 }
 #inputPass{  
     width: 100%; 
-    padding-left: 5px; 
+    padding-left: 0.25rem; 
     font-size: 0.7rem;  
 }
 #imgPass{
     position: absolute;
-    top: 5px;
-    right: 0px;
+    top: 0.3rem;
+    right: -0.2rem;
     width: 6%; 
    
 }
@@ -234,12 +234,12 @@ h1{
   }
   #name{
     font-size: 0.8rem;
-      font-weight: bold;
-      color: gold;
+    font-weight: bold;
+    color: gold;
   }
   #type{
     font-size: 0.6rem;
-      color: red;
+    color: red;
   }
 .ender{
     margin-top: 1%;
@@ -278,9 +278,9 @@ h5{
 p{
     margin-left: 50%;
     padding-top: 0.5%;
-     padding-bottom: 2%;
-     width: 100%;
-     color: white;
+    padding-bottom: 2%;
+    width: 100%;
+    color: white;
 }
 
 @media screen and (min-width: 1300px){
@@ -338,6 +338,10 @@ p{
     .grid-item {
         border: solid 2px darkorange; 
       }
+    .tool1,.tool2,.tool3,.tool4,.tool5{
+    
+        border-bottom: solid 2px red;
+    }
 }
 @media screen and (max-width: 690px){
     html{
@@ -346,6 +350,10 @@ p{
     .grid-item {
         border: solid 1.9px darkorange; 
       }
+    .tool1,.tool2,.tool3,.tool4,.tool5{
+    
+        border-bottom: solid 2px red;
+    }
 }
 @media screen and (max-width: 645px){
     html{
@@ -354,6 +362,10 @@ p{
     .grid-item {
         border: solid 1.9px darkorange; 
       }
+    .tool1,.tool2,.tool3,.tool4,.tool5{
+    
+        border-bottom: solid 3px red;
+    }
 }
 @media screen and (max-width: 605px){
     html{
@@ -362,6 +374,10 @@ p{
     .grid-item {
         border: solid 1.8px darkorange; 
       }
+    .tool1,.tool2,.tool3,.tool4,.tool5{
+    
+        border-bottom: solid 3px red;
+    }
 }
 @media screen and (max-width: 580px){
     html{
@@ -379,6 +395,13 @@ p{
     .grid-item {
         border: solid 1.8px darkorange; 
       }
+    .container1{
+        background-image: url('images/background1.png');
+    }
+    .tool1,.tool2,.tool3,.tool4,.tool5{
+    
+        border-bottom: solid 3px red;
+    }
 }
 @media screen and (max-width: 540px){
     html{
@@ -396,6 +419,13 @@ p{
     .grid-item {
         border: solid 1.7px darkorange; 
       }
+    .container1{
+        background-image: url('images/background1.png');
+    }
+    .tool1,.tool2,.tool3,.tool4,.tool5{
+    
+        border-bottom: solid 2px red;
+    }
 }
 @media screen and (max-width: 500px){
     html{
@@ -413,6 +443,13 @@ p{
     .grid-item {
         border: solid 1.5px darkorange; 
       }
+    .container1{
+        background-image: url('images/background1.png');
+    }
+    .tool1,.tool2,.tool3,.tool4,.tool5{
+    
+        border-bottom: solid 2px red;
+    }
 }
 @media screen and (max-width: 480px){
     html{
@@ -430,6 +467,13 @@ p{
     .grid-item {
         border: solid 1.3px darkorange; 
       }
+    .container1{
+        background-image: url('images/background1.png');
+    }
+    .tool1,.tool2,.tool3,.tool4,.tool5{
+    
+        border-bottom: solid 2px red;
+    }
 }
 @media screen and (max-width: 430px){
     html{
@@ -447,6 +491,13 @@ p{
     .grid-item {
         border: solid 1px darkorange; 
       }
+    .container1{
+        background-image: url('images/background1.png');
+    }
+    .tool1,.tool2,.tool3,.tool4,.tool5{
+    
+        border-bottom: solid 2px red;
+    }
 }
 @media screen and (max-width: 400px){
     html{
@@ -464,6 +515,13 @@ p{
     .grid-item {
         border: solid 1px darkorange; 
       }
+    .container1{
+        background-image: url('images/background1.png');
+    }
+    .tool1,.tool2,.tool3,.tool4,.tool5{
+    
+        border-bottom: solid 2px red;
+    }
 }
 @media screen and (max-width: 375px){
     html{
@@ -481,4 +539,14 @@ p{
     .grid-item {
         border: solid 1px darkorange; 
       }
+    .container1{
+        background-image: url('images/background1.png');
+    }
+    .tool1,.tool2,.tool3,.tool4,.tool5{
+    
+        border-bottom: solid 2px red;
+    }
 }
+
+
+
